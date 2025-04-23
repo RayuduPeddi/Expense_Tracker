@@ -13,8 +13,8 @@ body
     justify-content: space-between;
 }
 
-.header-right{
-
+.header{
+    width: auto;
 }
 .header-right ul{
     display: flex;
@@ -122,11 +122,18 @@ body
 
 
 @media screen and (min-width: 375px) and (max-width: 667px) { 
+    body{
+        margin: 0;
+        padding: 0;
+
+    }
     .inputs
     {
         width: 95%;
     }
-
+.header{
+    width: 100vw;
+}
     
 .input-form
 {
@@ -150,6 +157,11 @@ body
 }
 .card{
     margin: auto;
+}
+
+.transaction-table
+{
+    width: 95vw;
 }
 
 }
