@@ -4,11 +4,10 @@ body
     b
 }
 
-/* .title{
-   font-size: 60px;  
-   font-family:Verdana, Geneva, Tahoma, sans-serif; 
-
-} */
+.title{
+   font-size:50px;  
+   border-bottom:1px solid grey;
+}
 .parent
 {
     position: relative;
@@ -39,8 +38,8 @@ body
     z-index:2 ;
     width: auto;
     height: 5vw;
-    top: 6vw;
-    left: 30vw;
+    top: 10vh;
+    left:24vw;
     padding: 0px 25px;
 }
 
